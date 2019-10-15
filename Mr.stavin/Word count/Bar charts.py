@@ -27,7 +27,7 @@ sortedIndentation = [words for frequency, words in sorted(zip(count_list, indent
 fig = plt.figure(dpi =100, figsize =(13,5))
 plt.barh(sortedIndentation,sorted(count_list),color="red",edgecolor="blue")
 plt.title("Word Count",fontsize = 20)
+plt.xticks(range(1,11))
 plt.xlabel("Frequency",fontsize= 16,color = "red")
 plt.ylabel("Word",fontsize =16,color ="red")
-plt.yticks(indentation,dict_string.keys())
 plt.show()
