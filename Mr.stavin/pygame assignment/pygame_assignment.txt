@@ -1,0 +1,56 @@
+﻿Because Friday is a make-up class for the last online session, 
+we will substitute the pygame session with online assignment.
+
+
+Kindly upload the task in your github and due before Monday next session.
+
+
+You can do it in groups of 2 people. 
+Don’t forget to also attach your groupmate name
+
+
+
+PYGAME ASSIGNMENT ONLINE
+
+
+1. What is pygame? Can you modify its source code?
+
+
+2. What is Rectangle? How do you create a rectangle? (give sample code)
+
+
+3. Can you play music with pygame? (give sample code)
+
+
+4. A lot of games involve timer in its gameplay.How do you create a timer from round start to round finish? (give sample code)
+
+
+5. What is sprite and groups? When do you use it? (give sample code)
+
+
+6. What is collision detection? Why is it important? (give sample code)
+
+
+7. How do you display image in pygame? What is the function of blit? (give sample code)
+
+
+8. How do you tell a bunch of sprites to update and draw at (almost) the same time?
+(give sample code)
+
+
+10. What is game physics? Why is it important?
+
+
+11. How do you display text in pygame? (give sample code)
+
+
+12. How do you move a sprite / image in pygame? (give sample code)
+
+
+13. How do you fill a color of a surface? (give sample code)
+
+
+14. You have a player sprite. How do you randomize its position in a screen? (give sample code)
+
+
+15. Did you notice there are no number 9? (Y/N)
