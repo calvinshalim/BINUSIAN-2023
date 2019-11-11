@@ -76,10 +76,12 @@ def battle(mypoke,enemypoke):
     print("\n",winner,"IS THE WINNER!") #to tell you who is the winner      
                 
 def main():
-    with open("pokemonart.txt") as p: #i make  this just so it's a little bit cooler
-        print("  ",p.read())
+    f = open('pokemonart.txt', 'r') #i make  this just so it's a little bit coolery
+    file_contents = f.read()
+    print("  ",file_contents)
     print("\n","="*8,"WELCOME TO POKEMON BATTLE","="*8)
     print("\n              PICK YOUR POKEMON!")
+    
     temp = {}
     for index,poke in enumerate(pokemons.keys()): #print all the listing pokemon
         print(index + 1,poke)    
