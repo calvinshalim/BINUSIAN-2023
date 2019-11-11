@@ -1,0 +1,65 @@
+{
+  "pokemon": {
+    "Charizard": {
+      "health": 900,
+      "speed" : 600,
+      "types": "Fire",
+      "moves": [{"name":"Flamethrower","power": 90},
+        {"name":"Ember","power": 75},
+        {"name":"Flame charge","power":100},
+        {"name":"Fire Blast", "power":110}
+      ]
+    },
+    "Blastoise": {
+      "health": 960,
+      "speed":450,
+      "types": "water",
+      "moves": [{"name":"Bubble","power":75},
+        {"name":"Hydro Pump","power":110},
+        {"name":"Aqua Jet","power":65},
+        {"name":"Water Cannon","power":80}
+      ]
+    },
+    "Venusaur": {
+      "health": 1000,
+      "speed": 200,
+      "types": "grass",
+      "moves": [{"name":"Solar Beam","power":110},
+        {"name":"Leaf Blade","power":60},
+        {"name":"Vine Whip","power":55},
+        {"name":"Magical Leaf","power":85}
+      ]
+    },
+    "Typhlosion": {
+      "health": 910,
+      "speed" : 520,
+      "types": "Fire",
+      "moves": [{"name":"Flame Wheel","power": 75},
+        {"name":"Ember","power": 35},
+        {"name":"Eruption","power":90},
+        {"name":"Inferno", "power":100}
+      ]
+    },
+    "Feraligatr": {
+      "health": 920,
+      "speed" : 480,
+      "types": "water",
+      "moves": [{"name":"Water Gun","power":65},
+        {"name":"Hydro Pump","power":110},
+        {"name":"Aqua Tail","power":85},
+        {"name":"Surf","power":80}
+      ]
+    },
+    "Meganium": {
+      "health": 960,
+      "speed" : 500,
+      "types": "grass",
+      "moves": [{"name":"Solar Beam","power":110},
+        {"name":"Petal Blizzard","power":90},
+        {"name":"Razor Leaf","power":75},
+        {"name":"Magical Leaf","power":85}
+      ]
+    }
+  }
+}
+
