@@ -47,7 +47,9 @@ class move():
         self.power = movepower
 
 def battle(mypoke,enemypoke):
-    winner = ""
+    winner = ""    
+    c = open("congratulationstext.txt", "r")
+    congrats_content = c.read()
     while True:
         for index,move in enumerate(mypoke.moves): #print all of the pokemon's attack
             print(index + 1, move.movename,move.power)
@@ -74,7 +76,9 @@ def battle(mypoke,enemypoke):
             winner = secondmove[0].name
             break
     print("\n",winner,"IS THE WINNER!") #to tell you who is the winner      
-                
+    print(congrats_content)
+    print("\n","                 ","="*8,"THANKS FOR PLAYING","="*8)
+        
 def main():
     f = open("pokemonart.txt", "r") #i make  this just so it's a little bit coolery
     file_contents = f.read()
